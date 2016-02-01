@@ -97,17 +97,17 @@
     },
     {
       "apiVersion": "2014-06-01",
- -      "name": "DefaultServerFarm",
- -      "type": "Microsoft.Web/serverFarms",
- -      "location": "[parameters('siteLocation')]",
- -      "properties": {
- -        "name": "DefaultServerFarm",
- -        "sku": "[parameters('sku')]",
- -        "workerSize": "[parameters('workerSize')]",
- -        "numberOfWorkers": 1
- -      }
- -    },
- -    {
+       "name": "DefaultServerFarm",
+       "type": "Microsoft.Web/serverFarms",
+       "location": "[parameters('siteLocation')]",
+       "properties": {
+         "name": "DefaultServerFarm",
+         "sku": "[parameters('sku')]",
+         "workerSize": "[parameters('workerSize')]",
+         "numberOfWorkers": 1
+       }
+     },
+     {
       "apiVersion": "2014-06-01",
       "name": "[parameters('siteName')]",
       "type": "Microsoft.Web/Sites",
