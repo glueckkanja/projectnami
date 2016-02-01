@@ -6,10 +6,12 @@
       "type": "string"
     },
     "hostingPlanName": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "Default-Web-WestEurope"
     },
     "siteLocation": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "West Europe"
     },
     "sku": {
       "type": "string",
@@ -28,7 +30,8 @@
       "defaultValue": "2"
     },
     "sqlServerName": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "genericsql"
     },
     "sqlAdministratorLogin": {
       "type": "string"
