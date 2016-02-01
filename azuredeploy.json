@@ -101,10 +101,10 @@
       "type": "Microsoft.Web/Sites",
       "location": "[parameters('siteLocation')]",
       "dependsOn": [
-        "[concat('Microsoft.Web/serverFarms/', 'DefaultServerFarm')]"
+        "[concat('Microsoft.Web/serverfarms/', 'DefaultServerFarm')]"
       ],
       "tags": {
-        "[concat('hidden-related:', resourceGroup().id, '/providers/Microsoft.Web/serverfarms/', 'DefaultServerFarm')]": "empty"
+        "[concat('hidden-related:', resourceGroup().id, '/providers/Microsoft.Web/serverfarms/DefaultServerFarm')]": "empty"
       },
       "properties": {
         "name": "[parameters('siteName')]",
@@ -141,7 +141,7 @@
                     "value": 1
                 }
             ],
-            "phpVersion": "5.5"
+            "phpVersion": "5.6"
           }
         },
         {
