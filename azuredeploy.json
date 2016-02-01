@@ -101,14 +101,14 @@
       "type": "Microsoft.Web/Sites",
       "location": "[parameters('siteLocation')]",
       "dependsOn": [
-        "[concat('Microsoft.Web/serverFarms/', parameters('hostingPlanName'))]"
+        "[concat('Microsoft.Web/serverFarms/', 'DefaultServerFarm')]"
       ],
       "tags": {
-        "[concat('hidden-related:', resourceGroup().id, '/providers/Microsoft.Web/serverfarms/', parameters('hostingPlanName'))]": "empty"
+        "[concat('hidden-related:', resourceGroup().id, '/providers/Microsoft.Web/serverfarms/', 'DefaultServerFarm')]": "empty"
       },
       "properties": {
         "name": "[parameters('siteName')]",
-        "serverFarm": "[parameters('hostingPlanName')]"
+        "serverFarm": "DefaultServerFarm"
       },
       "resources": [
         {
