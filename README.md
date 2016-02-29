@@ -5,7 +5,6 @@ Project Nami
 
 ###Description:###
 
-
 In its current form, Project Nami is basically WordPress powered by Microsoft SQL. **All** WordPress features and functions are supported.
 
 Essentials supported include ( but are not limited to ) the following:
