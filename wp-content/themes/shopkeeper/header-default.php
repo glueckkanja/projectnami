@@ -174,38 +174,37 @@
 
 <script>
 
-	jQuery(document).ready(function($) {
+	// jQuery(document).ready(function($) {
+ 	//    "use strict";
+	
+	// 	$(window).scroll(function() {
+			
+	// 		if ($(window).scrollTop() > 0) {
+				
+	// 			<?php if ( (isset($shopkeeper_theme_options['sticky_header'])) && (trim($shopkeeper_theme_options['sticky_header']) == "1" ) ) { ?>
+	// 				$('#site-top-bar').addClass("hidden");
+	// 				$('.site-header').addClass("sticky");
+	// 				<?php if ( (isset($shopkeeper_theme_options['sticky_header_logo']['url'])) && (trim($shopkeeper_theme_options['sticky_header_logo']['url']) != "" ) ) { ?>
+	// 					$('.site-logo').attr('src', '<?php echo esc_url($sticky_header_logo); ?>');
+	// 				<?php } ?>
+	// 			<?php } ?>
+				
+	// 		} else {
+				
+	// 			<?php if ( (isset($shopkeeper_theme_options['sticky_header'])) && (trim($shopkeeper_theme_options['sticky_header']) == "1" ) ) { ?>
+	// 				$('#site-top-bar').removeClass("hidden");
+	// 				$('.site-header').removeClass("sticky");
+	// 				<?php if ( (isset($shopkeeper_theme_options['sticky_header_logo']['url'])) && (trim($shopkeeper_theme_options['sticky_header_logo']['url']) != "" ) ) { ?>
+	// 					$('.site-logo').attr('src', '<?php echo esc_url($site_logo); ?>');
+	// 				<?php } ?>
+	// 			<?php } ?>
+				
+	// 		}	
+			
+	// 	});
+	
+	// });
 
-    "use strict";
-	
-		$(window).scroll(function() {
-			
-			if ($(window).scrollTop() > 0) {
-				
-				<?php if ( (isset($shopkeeper_theme_options['sticky_header'])) && (trim($shopkeeper_theme_options['sticky_header']) == "1" ) ) { ?>
-					$('#site-top-bar').addClass("hidden");
-					$('.site-header').addClass("sticky");
-					<?php if ( (isset($shopkeeper_theme_options['sticky_header_logo']['url'])) && (trim($shopkeeper_theme_options['sticky_header_logo']['url']) != "" ) ) { ?>
-						$('.site-logo').attr('src', '<?php echo esc_url($sticky_header_logo); ?>');
-					<?php } ?>
-				<?php } ?>
-				
-			} else {
-				
-				<?php if ( (isset($shopkeeper_theme_options['sticky_header'])) && (trim($shopkeeper_theme_options['sticky_header']) == "1" ) ) { ?>
-					$('#site-top-bar').removeClass("hidden");
-					$('.site-header').removeClass("sticky");
-					<?php if ( (isset($shopkeeper_theme_options['sticky_header_logo']['url'])) && (trim($shopkeeper_theme_options['sticky_header_logo']['url']) != "" ) ) { ?>
-						$('.site-logo').attr('src', '<?php echo esc_url($site_logo); ?>');
-					<?php } ?>
-				<?php } ?>
-				
-			}	
-			
-		});
-	
-	});
-	
 </script>
 
 
