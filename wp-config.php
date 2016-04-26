@@ -77,6 +77,10 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
+ 
+//define( 'WP_SITEURL', 'http://example.com/wordpress' );
+//define( 'WP_HOME', 'http://example.com' );
+
 define( 'WP_DEBUG', false);
 define( 'WP_DEBUG_LOG', false);
 define( 'WP_DEBUG_DISPLAY', false);
